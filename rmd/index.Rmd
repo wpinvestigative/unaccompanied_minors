@@ -180,7 +180,7 @@ um %>% filter(group=="Gender") %>%
 
 ## Age {.tabset}
 
-The vast majority of the children in care are teens. Since October 2017 when the data was available, about 87 percent of the children in care were in their teens-- about 252,000.
+The vast majority of the children in care are teens. Since October 2017 when the data was available, about 86 percent of the children in care were in their teens-- about 252,000.
 
 About 39 percent of them were 17 year olds. The next-largest group were between the ages of 15 and 16-- 37 percent, or 109,000.
 
