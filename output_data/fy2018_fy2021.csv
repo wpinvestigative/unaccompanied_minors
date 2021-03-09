@@ -1,0 +1,1001 @@
+group,category,month,value,number_type
+Overall Data,Average Number of Children in Care:,2020-10-01,1929,Number
+Overall Data,Average Number of Children in Care:,2020-11-01,2397,Number
+Overall Data,Average Number of Children in Care:,2020-12-01,3691,Number
+Overall Data,Average Number of Children in Care:,2021-01-01,4020,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-10-01,13674,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-11-01,13106,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-12-01,13184,Number
+Overall Data,Maximum Number of Operations Beds*:,2021-01-01,13239,Number
+Overall Data,Average Occupancy Rate:,2020-10-01,15,Percent
+Overall Data,Average Occupancy Rate:,2020-11-01,18,Percent
+Overall Data,Average Occupancy Rate:,2020-12-01,28,Percent
+Overall Data,Average Occupancy Rate:,2021-01-01,30,Percent
+Overall Data,Average Length of Care (for those discharged)**:,2020-10-01,51,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-11-01,42,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-12-01,44,Number
+Overall Data,Average Length of Care (for those discharged)**:,2021-01-01,42,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-10-01,123,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-11-01,88,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-12-01,69,Number
+Overall Data,Average Length of Care (for those in care)***:,2021-01-01,54,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-10-01,49,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-11-01,77,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-12-01,109,Number
+Overall Data,30-Day Average Number of UC Referrals:,2021-01-01,130,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-10-01,2,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-11-01,1.8,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-12-01,2.2,Number
+Overall Data,30-Day Average UC Discharge Rate:,2021-01-01,2.2,Number
+Gender,Male,2020-10-01,1410,Number
+Gender,Male,2020-11-01,2097,Number
+Gender,Male,2020-12-01,2727,Number
+Gender,Male,2021-01-01,3658,Number
+Gender,Female,2020-10-01,631,Number
+Gender,Female,2020-11-01,949,Number
+Gender,Female,2020-12-01,1127,Number
+Gender,Female,2021-01-01,1468,Number
+Age,0-5,2020-10-01,70,Number
+Age,0-5,2020-11-01,97,Number
+Age,0-5,2020-12-01,103,Number
+Age,0-5,2021-01-01,125,Number
+Age,6-12,2020-10-01,242,Number
+Age,6-12,2020-11-01,350,Number
+Age,6-12,2020-12-01,381,Number
+Age,6-12,2021-01-01,526,Number
+Age,13-14,2020-10-01,222,Number
+Age,13-14,2020-11-01,358,Number
+Age,13-14,2020-12-01,410,Number
+Age,13-14,2021-01-01,545,Number
+Age,15-16,2020-10-01,754,Number
+Age,15-16,2020-11-01,1099,Number
+Age,15-16,2020-12-01,1490,Number
+Age,15-16,2021-01-01,1999,Number
+Age,17+,2020-10-01,753,Number
+Age,17+,2020-11-01,1142,Number
+Age,17+,2020-12-01,1470,Number
+Age,17+,2021-01-01,1931,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-10-01,167,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-11-01,255,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-12-01,260,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2021-01-01,376,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-10-01,104,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-11-01,154,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-12-01,192,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2021-01-01,243,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-10-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-11-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-12-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2021-01-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-12-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2021-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-12-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2021-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-12-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2021-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-10-01,40,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-11-01,37,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-12-01,31,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2021-01-01,31,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-10-01,544,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-11-01,562,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-12-01,1104,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2021-01-01,1120,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-10-01,443,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-11-01,531,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-12-01,1012,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2021-01-01,1272,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-10-01,66,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-11-01,123,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-12-01,173,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2021-01-01,228,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-10-01,1053,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-11-01,1216,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-12-01,2289,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2021-01-01,2620,Number
+Overall Data,Average Number of Children in Care:,2019-10-01,4501,Number
+Overall Data,Average Number of Children in Care:,2019-11-01,4054,Number
+Overall Data,Average Number of Children in Care:,2019-12-01,4236,Number
+Overall Data,Average Number of Children in Care:,2020-01-01,3621,Number
+Overall Data,Average Number of Children in Care:,2020-02-01,3617,Number
+Overall Data,Average Number of Children in Care:,2020-03-01,3541,Number
+Overall Data,Average Number of Children in Care:,2020-04-01,2331,Number
+Overall Data,Average Number of Children in Care:,2020-05-01,1396,Number
+Overall Data,Average Number of Children in Care:,2020-06-01,997,Number
+Overall Data,Average Number of Children in Care:,2020-07-01,834,Number
+Overall Data,Average Number of Children in Care:,2020-08-01,849,Number
+Overall Data,Average Number of Children in Care:,2020-09-01,1330,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-10-01,13616,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-11-01,12496,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-12-01,13059,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-01-01,13173,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-02-01,13243,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-03-01,13218,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-04-01,13316,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-05-01,13352,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-06-01,13649,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-07-01,13649,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-08-01,13649,Number
+Overall Data,Maximum Number of Operations Beds*:,2020-09-01,13763,Number
+Overall Data,Average Occupancy Rate:,2019-10-01,34,Percent
+Overall Data,Average Occupancy Rate:,2019-11-01,33,Percent
+Overall Data,Average Occupancy Rate:,2019-12-01,33,Percent
+Overall Data,Average Occupancy Rate:,2020-01-01,28,Percent
+Overall Data,Average Occupancy Rate:,2020-02-01,28,Percent
+Overall Data,Average Occupancy Rate:,2020-03-01,27,Percent
+Overall Data,Average Occupancy Rate:,2020-04-01,18,Percent
+Overall Data,Average Occupancy Rate:,2020-05-01,10,Percent
+Overall Data,Average Occupancy Rate:,2020-06-01,7,Percent
+Overall Data,Average Occupancy Rate:,2020-07-01,6,Percent
+Overall Data,Average Occupancy Rate:,2020-08-01,6,Percent
+Overall Data,Average Occupancy Rate:,2020-09-01,10,Percent
+Overall Data,Average Length of Care (for those discharged)**:,2019-10-01,69,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-11-01,64,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-12-01,55,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-01-01,56,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-02-01,55,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-03-01,51,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-04-01,74,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-05-01,123,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-06-01,194,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-07-01,239,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-08-01,152,Number
+Overall Data,Average Length of Care (for those discharged)**:,2020-09-01,97,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-10-01,123,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-11-01,114,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-12-01,113,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-01-01,122,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-02-01,117,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-03-01,132,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-04-01,215,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-05-01,294,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-06-01,348,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-07-01,342,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-08-01,269,Number
+Overall Data,Average Length of Care (for those in care)***:,2020-09-01,149,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-10-01,72,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-11-01,85,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-12-01,84,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-01-01,61,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-02-01,78,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-03-01,60,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-04-01,2,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-05-01,1,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-06-01,2,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-07-01,5,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-08-01,14,Number
+Overall Data,30-Day Average Number of UC Referrals:,2020-09-01,41,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-10-01,2.2,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-11-01,2.1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-12-01,2.1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-01-01,2.1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-02-01,2.2,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-03-01,2.1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-04-01,2.1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-05-01,1.4,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-06-01,1.1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-07-01,1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-08-01,0.9,Number
+Overall Data,30-Day Average UC Discharge Rate:,2020-09-01,1.3,Number
+Gender,Male,2019-10-01,2859,Number
+Gender,Male,2019-11-01,2830,Number
+Gender,Male,2019-12-01,2730,Number
+Gender,Male,2020-01-01,2461,Number
+Gender,Male,2020-02-01,2474,Number
+Gender,Male,2020-03-01,2180,Number
+Gender,Male,2020-04-01,1221,Number
+Gender,Male,2020-05-01,829,Number
+Gender,Male,2020-06-01,643,Number
+Gender,Male,2020-07-01,568,Number
+Gender,Male,2020-08-01,666,Number
+Gender,Male,2020-09-01,1158,Number
+Gender,Female,2019-10-01,1334,Number
+Gender,Female,2019-11-01,1348,Number
+Gender,Female,2019-12-01,1308,Number
+Gender,Female,2020-01-01,1155,Number
+Gender,Female,2020-02-01,1100,Number
+Gender,Female,2020-03-01,926,Number
+Gender,Female,2020-04-01,521,Number
+Gender,Female,2020-05-01,341,Number
+Gender,Female,2020-06-01,246,Number
+Gender,Female,2020-07-01,234,Number
+Gender,Female,2020-08-01,306,Number
+Gender,Female,2020-09-01,531,Number
+Age,0-5,2019-10-01,215,Number
+Age,0-5,2019-11-01,216,Number
+Age,0-5,2019-12-01,191,Number
+Age,0-5,2020-01-01,164,Number
+Age,0-5,2020-02-01,166,Number
+Age,0-5,2020-03-01,116,Number
+Age,0-5,2020-04-01,86,Number
+Age,0-5,2020-05-01,67,Number
+Age,0-5,2020-06-01,47,Number
+Age,0-5,2020-07-01,49,Number
+Age,0-5,2020-08-01,70,Number
+Age,0-5,2020-09-01,83,Number
+Age,6-12,2019-10-01,515,Number
+Age,6-12,2019-11-01,513,Number
+Age,6-12,2019-12-01,439,Number
+Age,6-12,2020-01-01,368,Number
+Age,6-12,2020-02-01,360,Number
+Age,6-12,2020-03-01,319,Number
+Age,6-12,2020-04-01,165,Number
+Age,6-12,2020-05-01,106,Number
+Age,6-12,2020-06-01,72,Number
+Age,6-12,2020-07-01,86,Number
+Age,6-12,2020-08-01,126,Number
+Age,6-12,2020-09-01,220,Number
+Age,13-14,2019-10-01,443,Number
+Age,13-14,2019-11-01,467,Number
+Age,13-14,2019-12-01,418,Number
+Age,13-14,2020-01-01,347,Number
+Age,13-14,2020-02-01,359,Number
+Age,13-14,2020-03-01,285,Number
+Age,13-14,2020-04-01,143,Number
+Age,13-14,2020-05-01,87,Number
+Age,13-14,2020-06-01,71,Number
+Age,13-14,2020-07-01,76,Number
+Age,13-14,2020-08-01,94,Number
+Age,13-14,2020-09-01,189,Number
+Age,15-16,2019-10-01,1461,Number
+Age,15-16,2019-11-01,1428,Number
+Age,15-16,2019-12-01,1462,Number
+Age,15-16,2020-01-01,1316,Number
+Age,15-16,2020-02-01,1312,Number
+Age,15-16,2020-03-01,1162,Number
+Age,15-16,2020-04-01,640,Number
+Age,15-16,2020-05-01,413,Number
+Age,15-16,2020-06-01,312,Number
+Age,15-16,2020-07-01,262,Number
+Age,15-16,2020-08-01,305,Number
+Age,15-16,2020-09-01,571,Number
+Age,17+,2019-10-01,1559,Number
+Age,17+,2019-11-01,1554,Number
+Age,17+,2019-12-01,1528,Number
+Age,17+,2020-01-01,1421,Number
+Age,17+,2020-02-01,1377,Number
+Age,17+,2020-03-01,1224,Number
+Age,17+,2020-04-01,708,Number
+Age,17+,2020-05-01,497,Number
+Age,17+,2020-06-01,387,Number
+Age,17+,2020-07-01,329,Number
+Age,17+,2020-08-01,377,Number
+Age,17+,2020-09-01,626,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-10-01,257,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-11-01,243,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-12-01,205,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-01-01,156,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-02-01,132,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-03-01,122,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-04-01,73,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-05-01,46,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-06-01,31,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-07-01,27,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-08-01,53,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2020-09-01,159,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-10-01,434,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-11-01,446,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-12-01,387,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-01-01,337,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-02-01,355,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-03-01,277,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-04-01,145,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-05-01,94,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-06-01,45,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-07-01,65,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-08-01,102,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2020-09-01,102,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-10-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-11-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-12-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-01-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-02-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-03-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-04-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-05-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-06-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-07-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-08-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2020-09-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-12-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-02-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-03-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-04-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-05-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-06-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-07-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-08-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2020-09-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-12-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-02-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-03-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-04-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-05-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-06-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-07-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-08-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2020-09-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-10-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-11-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-12-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-01-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-02-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-03-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-04-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-05-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-06-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-07-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-08-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2020-09-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-10-01,35,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-11-01,36,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-12-01,34,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-01-01,36,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-02-01,35,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-03-01,34,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-04-01,31,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-05-01,32,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-06-01,41,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-07-01,41,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-08-01,39,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2020-09-01,41,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-10-01,1067,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-11-01,912,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-12-01,1101,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-01-01,783,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-02-01,783,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-03-01,814,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-04-01,455,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-05-01,114,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-06-01,50,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-07-01,60,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-08-01,93,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2020-09-01,248,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-10-01,1207,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-11-01,1046,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-12-01,1076,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-01-01,1024,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-02-01,1056,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-03-01,1064,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-04-01,657,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-05-01,237,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-06-01,98,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-07-01,59,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-08-01,65,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2020-09-01,143,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-10-01,520,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-11-01,381,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-12-01,303,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-01-01,305,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-02-01,290,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-03-01,269,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-04-01,191,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-05-01,170,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-06-01,93,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-07-01,53,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-08-01,27,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2020-09-01,25,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-10-01,2794,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-11-01,2337,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-12-01,2480,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-01-01,2111,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-02-01,2129,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-03-01,2146,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-04-01,1303,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-05-01,521,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-06-01,241,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-07-01,170,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-08-01,185,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2020-09-01,416,Number
+Overall Data,Average Number of Children in Care:,2018-10-01,13286,Number
+Overall Data,Average Number of Children in Care:,2018-11-01,13936,Number
+Overall Data,Average Number of Children in Care:,2018-12-01,14226,Number
+Overall Data,Average Number of Children in Care:,2019-01-01,11151,Number
+Overall Data,Average Number of Children in Care:,2019-02-01,11473,Number
+Overall Data,Average Number of Children in Care:,2019-03-01,11851,Number
+Overall Data,Average Number of Children in Care:,2019-04-01,12587,Number
+Overall Data,Average Number of Children in Care:,2019-05-01,13123,Number
+Overall Data,Average Number of Children in Care:,2019-06-01,13432,Number
+Overall Data,Average Number of Children in Care:,2019-07-01,11049,Number
+Overall Data,Average Number of Children in Care:,2019-08-01,7751,Number
+Overall Data,Average Number of Children in Care:,2019-09-01,5775,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-10-01,15684,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-11-01,15846,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-12-01,16051,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-01-01,15424,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-02-01,13435,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-03-01,14048,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-04-01,14363,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-05-01,14375,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-06-01,15097,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-07-01,15897,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-08-01,16159,Number
+Overall Data,Maximum Number of Operations Beds*:,2019-09-01,13432,Number
+Overall Data,Average Occupancy Rate:,2018-10-01,87,Percent
+Overall Data,Average Occupancy Rate:,2018-11-01,90,Percent
+Overall Data,Average Occupancy Rate:,2018-12-01,89,Percent
+Overall Data,Average Occupancy Rate:,2019-01-01,82,Percent
+Overall Data,Average Occupancy Rate:,2019-02-01,86,Percent
+Overall Data,Average Occupancy Rate:,2019-03-01,87,Percent
+Overall Data,Average Occupancy Rate:,2019-04-01,88,Percent
+Overall Data,Average Occupancy Rate:,2019-05-01,92,Percent
+Overall Data,Average Occupancy Rate:,2019-06-01,92,Percent
+Overall Data,Average Occupancy Rate:,2019-07-01,70,Percent
+Overall Data,Average Occupancy Rate:,2019-08-01,53,Percent
+Overall Data,Average Occupancy Rate:,2019-09-01,43,Percent
+Overall Data,Average Length of Care (for those discharged)**:,2018-10-01,91,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-11-01,93,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-12-01,89,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-01-01,77,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-02-01,72,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-03-01,58,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-04-01,47,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-05-01,45,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-06-01,45,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-07-01,47,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-08-01,54,Number
+Overall Data,Average Length of Care (for those discharged)**:,2019-09-01,63,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-10-01,82,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-11-01,82,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-12-01,81,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-01-01,81,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-02-01,73,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-03-01,64,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-04-01,61,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-05-01,60,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-06-01,61,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-07-01,79,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-08-01,102,Number
+Overall Data,Average Length of Care (for those in care)***:,2019-09-01,116,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-10-01,140,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-11-01,151,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-12-01,164,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-01-01,145,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-02-01,210,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-03-01,256,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-04-01,286,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-05-01,293,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-06-01,294,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-07-01,167,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-08-01,100,Number
+Overall Data,30-Day Average Number of UC Referrals:,2019-09-01,82,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-10-01,1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-11-01,0.9,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-12-01,1.5,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-01-01,1.7,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-02-01,1.8,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-03-01,2,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-04-01,2.1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-05-01,2.1,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-06-01,2.3,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-07-01,2.6,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-08-01,2.5,Number
+Overall Data,30-Day Average UC Discharge Rate:,2019-09-01,2.2,Number
+Gender,Male,2018-10-01,9598,Number
+Gender,Male,2018-11-01,9801,Number
+Gender,Male,2018-12-01,8971,Number
+Gender,Male,2019-01-01,7842,Number
+Gender,Male,2019-02-01,8016,Number
+Gender,Male,2019-03-01,8449,Number
+Gender,Male,2019-04-01,8766,Number
+Gender,Male,2019-05-01,9229,Number
+Gender,Male,2019-06-01,8650,Number
+Gender,Male,2019-07-01,6177,Number
+Gender,Male,2019-08-01,4284,Number
+Gender,Male,2019-09-01,3402,Number
+Gender,Female,2018-10-01,3970,Number
+Gender,Female,2018-11-01,4369,Number
+Gender,Female,2018-12-01,3878,Number
+Gender,Female,2019-01-01,3499,Number
+Gender,Female,2019-02-01,3571,Number
+Gender,Female,2019-03-01,3822,Number
+Gender,Female,2019-04-01,4014,Number
+Gender,Female,2019-05-01,4101,Number
+Gender,Female,2019-06-01,4377,Number
+Gender,Female,2019-07-01,3161,Number
+Gender,Female,2019-08-01,2168,Number
+Gender,Female,2019-09-01,1676,Number
+Age,0-5,2018-10-01,322,Number
+Age,0-5,2018-11-01,344,Number
+Age,0-5,2018-12-01,354,Number
+Age,0-5,2019-01-01,311,Number
+Age,0-5,2019-02-01,280,Number
+Age,0-5,2019-03-01,333,Number
+Age,0-5,2019-04-01,380,Number
+Age,0-5,2019-05-01,432,Number
+Age,0-5,2019-06-01,491,Number
+Age,0-5,2019-07-01,450,Number
+Age,0-5,2019-08-01,341,Number
+Age,0-5,2019-09-01,280,Number
+Age,6-12,2018-10-01,1367,Number
+Age,6-12,2018-11-01,1489,Number
+Age,6-12,2018-12-01,1165,Number
+Age,6-12,2019-01-01,1074,Number
+Age,6-12,2019-02-01,1093,Number
+Age,6-12,2019-03-01,1211,Number
+Age,6-12,2019-04-01,1379,Number
+Age,6-12,2019-05-01,1417,Number
+Age,6-12,2019-06-01,1517,Number
+Age,6-12,2019-07-01,1198,Number
+Age,6-12,2019-08-01,815,Number
+Age,6-12,2019-09-01,653,Number
+Age,13-14,2018-10-01,1482,Number
+Age,13-14,2018-11-01,1557,Number
+Age,13-14,2018-12-01,1315,Number
+Age,13-14,2019-01-01,1155,Number
+Age,13-14,2019-02-01,1195,Number
+Age,13-14,2019-03-01,1265,Number
+Age,13-14,2019-04-01,1331,Number
+Age,13-14,2019-05-01,1345,Number
+Age,13-14,2019-06-01,1382,Number
+Age,13-14,2019-07-01,940,Number
+Age,13-14,2019-08-01,640,Number
+Age,13-14,2019-09-01,505,Number
+Age,15-16,2018-10-01,5002,Number
+Age,15-16,2018-11-01,5328,Number
+Age,15-16,2018-12-01,4933,Number
+Age,15-16,2019-01-01,4286,Number
+Age,15-16,2019-02-01,4454,Number
+Age,15-16,2019-03-01,4620,Number
+Age,15-16,2019-04-01,4812,Number
+Age,15-16,2019-05-01,5069,Number
+Age,15-16,2019-06-01,4752,Number
+Age,15-16,2019-07-01,3243,Number
+Age,15-16,2019-08-01,2221,Number
+Age,15-16,2019-09-01,1708,Number
+Age,17,2018-10-01,5395,Number
+Age,17,2018-11-01,5452,Number
+Age,17,2018-12-01,5082,Number
+Age,17,2019-01-01,4515,Number
+Age,17,2019-02-01,4565,Number
+Age,17,2019-03-01,4842,Number
+Age,17,2019-04-01,4878,Number
+Age,17,2019-05-01,5067,Number
+Age,17,2019-06-01,4885,Number
+Age,17,2019-07-01,3507,Number
+Age,17,2019-08-01,2435,Number
+Age,17,2019-09-01,1932,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-10-01,795,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-11-01,901,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-12-01,719,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-01-01,549,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-02-01,456,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-03-01,528,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-04-01,633,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-05-01,667,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-06-01,782,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-07-01,636,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-08-01,478,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2019-09-01,351,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-10-01,858,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-11-01,898,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-12-01,764,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-01-01,799,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-02-01,882,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-03-01,981,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-04-01,1090,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-05-01,1145,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-06-01,1187,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-07-01,976,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-08-01,642,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2019-09-01,545,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-10-01,5,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-11-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-12-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-01-01,5,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-02-01,4,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-03-01,4,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-04-01,4,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-05-01,4,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-06-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-07-01,4,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-08-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2019-09-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-10-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-11-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-12-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-01-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-02-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-03-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-04-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-05-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-06-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-07-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-08-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2019-09-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-12-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-02-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-03-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-04-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-05-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-06-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-07-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-08-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2019-09-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-12-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-01-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-02-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-03-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-04-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-05-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-06-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-07-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-08-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2019-09-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-10-01,30,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-11-01,30,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-12-01,31,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-01-01,30,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-02-01,29,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-03-01,29,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-04-01,31,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-05-01,31,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-06-01,33,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-07-01,29,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-08-01,32,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2019-09-01,35,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-10-01,1471,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-11-01,1544,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-12-01,2934,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-01-01,2246,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-02-01,2258,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-03-01,3130,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-04-01,3766,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-05-01,3803,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-06-01,3758,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-07-01,3496,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-08-01,2301,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2019-09-01,1385,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-10-01,1700,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-11-01,1560,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-12-01,2563,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-01-01,2883,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-02-01,2530,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-03-01,3186,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-04-01,3443,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-05-01,3753,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-06-01,4273,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-07-01,4144,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-08-01,2547,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2019-09-01,1555,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-10-01,291,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-11-01,295,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-12-01,521,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-01-01,452,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-02-01,490,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-03-01,580,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-04-01,528,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-05-01,545,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-06-01,692,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-07-01,823,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-08-01,799,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2019-09-01,591,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-10-01,3462,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-11-01,3399,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-12-01,6018,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-01-01,5581,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-02-01,5278,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-03-01,6896,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-04-01,7737,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-05-01,8101,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-06-01,8723,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-07-01,8463,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-08-01,5647,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2019-09-01,3531,Number
+Overall Data,Average Number of Children in Care:,2017-10-01,5074,Number
+Overall Data,Average Number of Children in Care:,2017-11-01,5939,Number
+Overall Data,Average Number of Children in Care:,2017-12-01,7417,Number
+Overall Data,Average Number of Children in Care:,2018-01-01,7591,Number
+Overall Data,Average Number of Children in Care:,2018-02-01,7644,Number
+Overall Data,Average Number of Children in Care:,2018-03-01,7727,Number
+Overall Data,Average Number of Children in Care:,2018-04-01,8647,Number
+Overall Data,Average Number of Children in Care:,2018-05-01,9823,Number
+Overall Data,Average Number of Children in Care:,2018-06-01,11531,Number
+Overall Data,Average Number of Children in Care:,2018-07-01,11785,Number
+Overall Data,Average Number of Children in Care:,2018-08-01,11751,Number
+Overall Data,Average Number of Children in Care:,2018-09-01,13034,Number
+Overall Data,Maximum Number of Operations Beds*:,2017-10-01,6871,Number
+Overall Data,Maximum Number of Operations Beds*:,2017-11-01,7681,Number
+Overall Data,Maximum Number of Operations Beds*:,2017-12-01,8793,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-01-01,9861,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-02-01,10323,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-03-01,10454,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-04-01,10353,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-05-01,11476,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-06-01,12756,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-07-01,12848,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-08-01,13436,Number
+Overall Data,Maximum Number of Operations Beds*:,2018-09-01,15371,Number
+Overall Data,Average Occupancy Rate:,2017-10-01,83,Percent
+Overall Data,Average Occupancy Rate:,2017-11-01,83,Percent
+Overall Data,Average Occupancy Rate:,2017-12-01,89,Percent
+Overall Data,Average Occupancy Rate:,2018-01-01,81,Percent
+Overall Data,Average Occupancy Rate:,2018-02-01,76,Percent
+Overall Data,Average Occupancy Rate:,2018-03-01,75,Percent
+Overall Data,Average Occupancy Rate:,2018-04-01,85,Percent
+Overall Data,Average Occupancy Rate:,2018-05-01,91,Percent
+Overall Data,Average Occupancy Rate:,2018-06-01,94,Percent
+Overall Data,Average Occupancy Rate:,2018-07-01,92,Percent
+Overall Data,Average Occupancy Rate:,2018-08-01,90,Percent
+Overall Data,Average Occupancy Rate:,2018-09-01,91,Percent
+Overall Data,Average Length of Care (for those discharged)**:,2017-10-01,52,Number
+Overall Data,Average Length of Care (for those discharged)**:,2017-11-01,51,Number
+Overall Data,Average Length of Care (for those discharged)**:,2017-12-01,50,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-01-01,55,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-02-01,61,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-03-01,64,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-04-01,61,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-05-01,58,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-06-01,61,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-07-01,72,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-08-01,87,Number
+Overall Data,Average Length of Care (for those discharged)**:,2018-09-01,90,Number
+Overall Data,Average Length of Care (for those in care)***:,2017-10-01,76,Number
+Overall Data,Average Length of Care (for those in care)***:,2017-11-01,68,Number
+Overall Data,Average Length of Care (for those in care)***:,2017-12-01,66,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-01-01,74,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-02-01,79,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-03-01,74,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-04-01,72,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-05-01,65,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-06-01,66,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-07-01,74,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-08-01,78,Number
+Overall Data,Average Length of Care (for those in care)***:,2018-09-01,80,Number
+Overall Data,30-Day Average Number of UC Referrals:,2017-10-01,96,Number
+Overall Data,30-Day Average Number of UC Referrals:,2017-11-01,129,Number
+Overall Data,30-Day Average Number of UC Referrals:,2017-12-01,143,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-01-01,100,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-02-01,107,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-03-01,136,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-04-01,146,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-05-01,198,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-06-01,177,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-07-01,125,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-08-01,122,Number
+Overall Data,30-Day Average Number of UC Referrals:,2018-09-01,135,Number
+Overall Data,30-Day Average UC Discharge Rate:,2017-10-01,1.6,Number
+Overall Data,30-Day Average UC Discharge Rate:,2017-11-01,1.4,Number
+Overall Data,30-Day Average UC Discharge Rate:,2017-12-01,1.5,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-01-01,1.3,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-02-01,1.5,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-03-01,1.4,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-04-01,1.5,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-05-01,1.4,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-06-01,1.2,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-07-01,1.2,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-08-01,0.7,Number
+Overall Data,30-Day Average UC Discharge Rate:,2018-09-01,0.8,Number
+Gender,Male,2017-10-01,3878,Number
+Gender,Male,2017-11-01,4861,Number
+Gender,Male,2017-12-01,5593,Number
+Gender,Male,2018-01-01,5748,Number
+Gender,Male,2018-02-01,5620,Number
+Gender,Male,2018-03-01,6195,Number
+Gender,Male,2018-04-01,6633,Number
+Gender,Male,2018-05-01,7830,Number
+Gender,Male,2018-06-01,8433,Number
+Gender,Male,2018-07-01,8260,Number
+Gender,Male,2018-08-01,8871,Number
+Gender,Male,2018-09-01,9475,Number
+Gender,Female,2017-10-01,1510,Number
+Gender,Female,2017-11-01,1874,Number
+Gender,Female,2017-12-01,2105,Number
+Gender,Female,2018-01-01,2085,Number
+Gender,Female,2018-02-01,1990,Number
+Gender,Female,2018-03-01,2234,Number
+Gender,Female,2018-04-01,2334,Number
+Gender,Female,2018-05-01,2970,Number
+Gender,Female,2018-06-01,3433,Number
+Gender,Female,2018-07-01,3092,Number
+Gender,Female,2018-08-01,3484,Number
+Gender,Female,2018-09-01,3745,Number
+Age,0-5,2017-10-01,193,Number
+Age,0-5,2017-11-01,253,Number
+Age,0-5,2017-12-01,260,Number
+Age,0-5,2018-01-01,245,Number
+Age,0-5,2018-02-01,237,Number
+Age,0-5,2018-03-01,260,Number
+Age,0-5,2018-04-01,286,Number
+Age,0-5,2018-05-01,401,Number
+Age,0-5,2018-06-01,456,Number
+Age,0-5,2018-07-01,280,Number
+Age,0-5,2018-08-01,264,Number
+Age,0-5,2018-09-01,288,Number
+Age,6-12,2017-10-01,439,Number
+Age,6-12,2017-11-01,611,Number
+Age,6-12,2017-12-01,613,Number
+Age,6-12,2018-01-01,612,Number
+Age,6-12,2018-02-01,549,Number
+Age,6-12,2018-03-01,718,Number
+Age,6-12,2018-04-01,763,Number
+Age,6-12,2018-05-01,1615,Number
+Age,6-12,2018-06-01,1967,Number
+Age,6-12,2018-07-01,1203,Number
+Age,6-12,2018-08-01,1213,Number
+Age,6-12,2018-09-01,1319,Number
+Age,13-14,2017-10-01,543,Number
+Age,13-14,2017-11-01,702,Number
+Age,13-14,2017-12-01,776,Number
+Age,13-14,2018-01-01,719,Number
+Age,13-14,2018-02-01,719,Number
+Age,13-14,2018-03-01,841,Number
+Age,13-14,2018-04-01,847,Number
+Age,13-14,2018-05-01,1105,Number
+Age,13-14,2018-06-01,1307,Number
+Age,13-14,2018-07-01,1164,Number
+Age,13-14,2018-08-01,1308,Number
+Age,13-14,2018-09-01,1415,Number
+Age,15-16,2017-10-01,2015,Number
+Age,15-16,2017-11-01,2536,Number
+Age,15-16,2017-12-01,3015,Number
+Age,15-16,2018-01-01,3108,Number
+Age,15-16,2018-02-01,3039,Number
+Age,15-16,2018-03-01,3293,Number
+Age,15-16,2018-04-01,3517,Number
+Age,15-16,2018-05-01,3855,Number
+Age,15-16,2018-06-01,4095,Number
+Age,15-16,2018-07-01,4277,Number
+Age,15-16,2018-08-01,4621,Number
+Age,15-16,2018-09-01,4869,Number
+Age,17,2017-10-01,2198,Number
+Age,17,2017-11-01,2633,Number
+Age,17,2017-12-01,3034,Number
+Age,17,2018-01-01,3149,Number
+Age,17,2018-02-01,3066,Number
+Age,17,2018-03-01,3317,Number
+Age,17,2018-04-01,3554,Number
+Age,17,2018-05-01,3824,Number
+Age,17,2018-06-01,4041,Number
+Age,17,2018-07-01,4428,Number
+Age,17,2018-08-01,4949,Number
+Age,17,2018-09-01,5329,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2017-10-01,218,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2017-11-01,324,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2017-12-01,345,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-01-01,329,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-02-01,265,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-03-01,404,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-04-01,432,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-05-01,1115,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-06-01,1494,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-07-01,766,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-08-01,736,Number
+Tender Age (0-12) UC By Shelter Type,Standard Shelter,2018-09-01,772,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2017-10-01,383,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2017-11-01,511,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2017-12-01,496,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-01-01,498,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-02-01,491,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-03-01,542,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-04-01,586,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-05-01,869,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-06-01,894,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-07-01,680,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-08-01,710,Number
+Tender Age (0-12) UC By Shelter Type,Transitional Foster Care,2018-09-01,807,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2017-10-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2017-11-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2017-12-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-01-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-02-01,3,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-03-01,2,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-04-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-05-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-06-01,5,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-07-01,8,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-08-01,6,Number
+Tender Age (0-12) UC By Shelter Type,Residential Treatment,2018-09-01,5,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2017-10-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2017-11-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2017-12-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-02-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-03-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-04-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-05-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-06-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-07-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-08-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Staff Secure,2018-09-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2017-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2017-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2017-12-01,1,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-02-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-03-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-04-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-05-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-06-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-07-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-08-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Secure,2018-09-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2017-10-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2017-11-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2017-12-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-01-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-02-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-03-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-04-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-05-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-06-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-07-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-08-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Therapeutic,2018-09-01,0,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2017-10-01,27,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2017-11-01,26,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2017-12-01,27,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-01-01,27,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-02-01,27,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-03-01,29,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-04-01,30,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-05-01,30,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-06-01,29,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-07-01,28,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-08-01,24,Number
+Tender Age (0-12) UC By Shelter Type,Long Term Foster Care,2018-09-01,22,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2017-10-01,909,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2017-11-01,963,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2017-12-01,1466,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-01-01,1167,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-02-01,1120,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-03-01,1131,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-04-01,1513,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-05-01,1627,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-06-01,1610,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-07-01,1012,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-08-01,856,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 1,2018-09-01,1251,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2017-10-01,1065,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2017-11-01,1014,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2017-12-01,1369,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-01-01,1268,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-02-01,1443,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-03-01,1567,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-04-01,1595,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-05-01,1891,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-06-01,1817,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-07-01,1221,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-08-01,1076,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 2,2018-09-01,1186,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2017-10-01,251,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2017-11-01,259,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2017-12-01,337,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-01-01,267,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-02-01,347,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-03-01,367,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-04-01,362,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-05-01,390,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-06-01,422,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-07-01,296,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-08-01,249,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Category 3,2018-09-01,269,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2017-10-01,2225,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2017-11-01,2236,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2017-12-01,3172,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-01-01,2702,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-02-01,2910,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-03-01,3065,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-04-01,3470,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-05-01,3908,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-06-01,3849,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-07-01,2529,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-08-01,2181,Number
+Total Monthly Discharges to Individual Sponsors Only (By Category),Total,2018-09-01,2706,Number

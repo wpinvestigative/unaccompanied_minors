@@ -1,0 +1,81 @@
+sector,type,year,encounters
+El Salvador,uac,fy14,16404
+El Salvador,uac,fy15,9389
+El Salvador,uac,fy16,17512
+El Salvador,uac,fy17,9143
+El Salvador,uac,fy18,4949
+El Salvador,uac,fy19,12021
+Guatemala,uac,fy14,17057
+Guatemala,uac,fy15,13589
+Guatemala,uac,fy16,18913
+Guatemala,uac,fy17,14827
+Guatemala,uac,fy18,22327
+Guatemala,uac,fy19,30329
+Honduras,uac,fy14,18244
+Honduras,uac,fy15,5409
+Honduras,uac,fy16,10468
+Honduras,uac,fy17,7784
+Honduras,uac,fy18,10913
+Honduras,uac,fy19,20398
+Mexico,uac,fy14,15634
+Mexico,uac,fy15,11012
+Mexico,uac,fy16,11926
+Mexico,uac,fy17,8877
+Mexico,uac,fy18,10136
+Mexico,uac,fy19,10487
+El Salvador,family unit,fy16,27114
+El Salvador,family unit,fy17,24122
+El Salvador,family unit,fy18,13669
+El Salvador,family unit,fy19,56897
+Guatemala,family unit,fy16,23067
+Guatemala,family unit,fy17,24657
+Guatemala,family unit,fy18,50401
+Guatemala,family unit,fy19,185233
+Honduras,family unit,fy16,20226
+Honduras,family unit,fy17,22366
+Honduras,family unit,fy18,39439
+Honduras,family unit,fy19,188416
+Mexico,family unit,fy16,3481
+Mexico,family unit,fy17,2271
+Mexico,family unit,fy18,2261
+Mexico,family unit,fy19,6004
+El Salvador,single adult,fy16,27222
+El Salvador,single adult,fy17,16495
+El Salvador,single adult,fy18,12751
+El Salvador,single adult,fy19,20893
+Guatemala,single adult,fy16,32621
+Guatemala,single adult,fy17,26387
+Guatemala,single adult,fy18,42994
+Guatemala,single adult,fy19,48606
+Honduras,single adult,fy16,22258
+Honduras,single adult,fy17,17110
+Honduras,single adult,fy18,26161
+Honduras,single adult,fy19,44981
+Mexico,single adult,fy16,175353
+Mexico,single adult,fy17,116790
+Mexico,single adult,fy18,139860
+Mexico,single adult,fy19,149967
+El Salvador,uac,fy20,2189
+Guatemala,uac,fy20,8390
+Honduras,uac,fy20,4454
+Mexico,uac,fy20,14359
+El Salvador,family unit,fy20,4335
+Guatemala,family unit,fy20,10905
+Honduras,family unit,fy20,10485
+Mexico,family unit,fy20,9917
+El Salvador,single adult,fy20,9960
+Guatemala,single adult,fy20,27948
+Honduras,single adult,fy20,25152
+Mexico,single adult,fy20,228842
+El Salvador,uac,fy21,1418
+Guatemala,uac,fy21,6161
+Honduras,uac,fy21,3504
+Mexico,uac,fy21,7730
+El Salvador,family unit,fy21,1896
+Guatemala,family unit,fy21,3493
+Honduras,family unit,fy21,5242
+Mexico,family unit,fy21,4412
+El Salvador,single adult,fy21,10685
+Guatemala,single adult,fy21,35308
+Honduras,single adult,fy21,28181
+Mexico,single adult,fy21,148380

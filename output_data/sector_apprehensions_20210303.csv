@@ -1,0 +1,31 @@
+sector,type,fy18,fy19,fy20,fy21
+Big Bend,uac,989,779,170,410
+Del Rio,uac,1297,3621,817,1811
+El Centro,uac,2715,2688,477,647
+El Paso,uac,5461,16159,1696,3317
+Laredo,uac,2879,2521,1006,1187
+Rio Grande,uac,23757,34523,4214,7295
+San Diego,uac,2491,3335,680,1094
+Tucson,uac,5023,5105,2605,3382
+Yuma,uac,5424,7289,387,576
+USBP Southwest Border Total,uac,50036,76020,12052,19719
+Big Bend,family unit,741,2931,250,189
+Del Rio,family unit,2829,32835,3844,4176
+El Centro,family unit,3539,7873,457,274
+El Paso,family unit,12312,132909,8085,3621
+Laredo,family unit,597,1169,399,1092
+Rio Grande,family unit,63278,211631,7380,6203
+San Diego,family unit,4408,16174,2150,1986
+Tucson,family unit,4954,16199,8343,1897
+Yuma,family unit,14554,51961,1575,1199
+USBP Southwest Border Total,family unit,107212,473682,32483,20637
+Big Bend,single adult,6315,5927,1906,7196
+Del Rio,single adult,11707,20813,7007,31445
+El Centro,single adult,22976,24577,6429,12866
+El Paso,single adult,13788,33075,10032,32226
+Laredo,single adult,29165,34688,12503,31714
+Rio Grande,single adult,75227,92981,21007,55698
+San Diego,single adult,31692,38540,12795,29846
+Tucson,single adult,42195,42186,13706,40231
+Yuma,single adult,6266,9019,1064,2831
+USBP Southwest Border Total,single adult,239331,301806,86449,244053

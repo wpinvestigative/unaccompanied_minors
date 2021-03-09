@@ -1,0 +1,549 @@
+---
+title: "Exploratory Unaccompanied Children Data"
+author: Andrew Ba Tran
+output:
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning=F)
+knitr::opts_chunk$set(message=F)
+knitr::opts_chunk$set(fig.width=8)
+knitr::opts_chunk$set(fig.height=5)
+
+library(tidyverse)
+library(DT)
+library(knitr)
+library(geofacet)
+um <- read_csv("../output_data/fy2018_fy2021.csv") %>% 
+  arrange(month)
+
+states <- read_csv("../output_data/states_children.csv")
+state_pop <- read_csv("../raw_data/state_pop.csv")
+states_long <- states %>% 
+  pivot_longer(cols=2:8, names_to="fiscal_year", values_to="uac") %>% 
+  mutate(fiscal_year=gsub("fy", "20", fiscal_year)) %>% 
+  mutate(fiscal_year=as.numeric(gsub("_so_far", "", fiscal_year)))
+
+states_long <- states_long %>% left_join(state_pop, by=c(state="name"))
+
+states_long <- states_long %>% 
+  mutate(per_capita=round(uac/population*1000000,1))
+
+```
+
+## Overall {.tabset}
+
+The average number of children in the Unaccompanied Children Program climbed from nearly 15,000 before 2019 and then again in the summer of 2019 before dropping to its lowest point in three years in the summer of 2020. The numbers have slowly climbed since through the winter. 
+
+Paradoxically, the average length of care for those discharged remained between 50 and 100 days until the summer of 2020 when the number spiked to 250. Average length of care for those in care also saw a similar jump.
+
+
+### Scaled
+
+```{r overall_scaled, fig.height=6}
+um %>% filter(group=="Overall Data") %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, ncol=2) +
+  labs(caption="Data:  Administration for Children and Families")
+```
+
+### Unscaled 
+
+```{r overall_unscaled, fig.height=6}
+um %>% filter(group=="Overall Data") %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, scales="free_y", ncol=2) +
+  labs(caption="Data:  Administration for Children and Families")
+```
+
+### Table
+
+```{r overall_table}
+um %>% filter(group=="Overall Data") %>% 
+  select(-group, -number_type) %>% 
+  pivot_wider(names_from="month", values_from="value") %>% 
+    DT::datatable(
+    #filter = "top",  # allows filtering on each column
+    extensions = c(
+      "Buttons"#,  # add download buttons, etc
+     # "Scroller"  # for scrolling down the rows rather than pagination
+    ),
+    rownames = FALSE,  # remove rownames
+    style = "bootstrap",
+    class = "compact",
+    width = "100%",
+    options = list(
+    #  dom = "Blrtip",  # specify content (search box, etc)
+    #  deferRender = TRUE,
+      #scrollY = 300,
+      #scroller = TRUE,
+      #columnDefs = list(
+      #  list(
+      #    visible = FALSE,
+      #    targets = c(4,5,7)
+      #  )
+    #  ), 
+      buttons = list(
+    #    I("colvis"),  # turn columns on and off
+        "csv",  # download as .csv
+        "excel"  # download as .xlsx
+      )
+    )
+)
+```
+
+
+## Gender {.tabset}
+
+More than 70 percent of the unaccompanied children are males. Year over year, that hasn't fluctuated much.
+
+### Scaled
+
+```{r gender_scaled, fig.height=2}
+um %>% filter(group=="Gender") %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, ncol=2)
+```
+
+### Unscaled 
+
+```{r gender_unscaled, fig.height=2}
+um %>% filter(group=="Gender") %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, scales="free_y", ncol=2)
+```
+
+### Table
+
+```{r gender_table}
+um %>% filter(group=="Gender") %>% 
+  select(-group, -number_type) %>% 
+  pivot_wider(names_from="month", values_from="value") %>% 
+    DT::datatable(
+    #filter = "top",  # allows filtering on each column
+    extensions = c(
+      "Buttons"#,  # add download buttons, etc
+     # "Scroller"  # for scrolling down the rows rather than pagination
+    ),
+    rownames = FALSE,  # remove rownames
+    style = "bootstrap",
+    class = "compact",
+    width = "100%",
+    options = list(
+    #  dom = "Blrtip",  # specify content (search box, etc)
+    #  deferRender = TRUE,
+      #scrollY = 300,
+      #scroller = TRUE,
+      #columnDefs = list(
+      #  list(
+      #    visible = FALSE,
+      #    targets = c(4,5,7)
+      #  )
+    #  ), 
+      buttons = list(
+    #    I("colvis"),  # turn columns on and off
+        "csv",  # download as .csv
+        "excel"  # download as .xlsx
+      )
+    )
+)
+```
+
+### Percent
+
+```{r gender_percent}
+um %>% filter(group=="Gender") %>% 
+  group_by(month) %>% 
+  mutate(percent=value/sum(value)*100) %>% 
+  ggplot(aes(x=month, y=percent, fill=category)) +
+    geom_bar(position="stack", stat="identity") 
+```
+
+### Overall percent
+
+```{r gender_percent_table}
+um %>% filter(group=="Gender") %>% 
+  group_by(category) %>% 
+  summarize(total=sum(value, na.rm=T)) %>% 
+  mutate(percent=round(total/sum(total)*100,1)) %>% 
+  kable()
+ 
+```
+
+
+## Age {.tabset}
+
+The vast majority of the children in care are teens. Since October 2017 when the data was available, about 87 percent of the children in care were in their teens-- about 252,000.
+
+About 39 percent of them were 17 year olds. The next-largest group were between the ages of 15 and 16-- 37 percent, or 109,000.
+
+### Scaled
+
+```{r age_scaled, fig.height=5}
+um %>% filter(group=="Age") %>% 
+  mutate(category=case_when(
+    category=="0-5" ~ "a. 0-5",
+    category=="6-12" ~ "b. 6-12",
+    category=="13-14" ~ "c. 13-14",
+    category=="15-16" ~ "d. 15-16",
+    category=="17" ~ "e. 17",
+    category=="17+" ~ "e. 17"
+    )) %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, ncol=2)
+```
+
+### Unscaled 
+
+```{r age_unscaled, fig.height=5}
+um %>% filter(group=="Age") %>% 
+    mutate(category=case_when(
+    category=="0-5" ~ "a. 0-5",
+    category=="6-12" ~ "b. 6-12",
+    category=="13-14" ~ "c. 13-14",
+    category=="15-16" ~ "d. 15-16",
+    category=="17" ~ "e. 17",
+    category=="17+" ~ "e. 17"
+    )) %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, scales="free_y", ncol=2)
+```
+
+### Table
+
+```{r age_table}
+um %>% filter(group=="Age") %>% 
+  select(-group, -number_type) %>% 
+    mutate(category=case_when(
+    category=="0-5" ~ "a. 0-5",
+    category=="6-12" ~ "b. 6-12",
+    category=="13-14" ~ "c. 13-14",
+    category=="15-16" ~ "d. 15-16",
+    category=="17" ~ "e. 17",
+    category=="17+" ~ "e. 17"
+    )) %>% 
+  pivot_wider(names_from="month", values_from="value") %>% 
+    DT::datatable(
+    #filter = "top",  # allows filtering on each column
+    extensions = c(
+      "Buttons"#,  # add download buttons, etc
+     # "Scroller"  # for scrolling down the rows rather than pagination
+    ),
+    rownames = FALSE,  # remove rownames
+    style = "bootstrap",
+    class = "compact",
+    width = "100%",
+    options = list(
+    #  dom = "Blrtip",  # specify content (search box, etc)
+    #  deferRender = TRUE,
+      #scrollY = 300,
+      #scroller = TRUE,
+      #columnDefs = list(
+      #  list(
+      #    visible = FALSE,
+      #    targets = c(4,5,7)
+      #  )
+    #  ), 
+      buttons = list(
+    #    I("colvis"),  # turn columns on and off
+        "csv",  # download as .csv
+        "excel"  # download as .xlsx
+      )
+    )
+)
+```
+
+
+### Percent
+
+```{r age_percent}
+um %>% filter(group=="Age") %>% 
+  select(-group, -number_type) %>% 
+    mutate(category=case_when(
+    category=="0-5" ~ "a. 0-5",
+    category=="6-12" ~ "b. 6-12",
+    category=="13-14" ~ "c. 13-14",
+    category=="15-16" ~ "d. 15-16",
+    category=="17" ~ "e. 17",
+    category=="17+" ~ "e. 17"
+    )) %>% 
+  group_by(month) %>% 
+  mutate(percent=value/sum(value)*100) %>% 
+  ggplot(aes(x=month, y=percent, fill=category)) +
+    geom_bar(position="stack", stat="identity") 
+```
+
+### Overall percent
+
+```{r age_percent_table}
+um %>% filter(group=="Age") %>% 
+  select(-group, -number_type) %>% 
+    mutate(category=case_when(
+    category=="0-5" ~ "a. 0-5",
+    category=="6-12" ~ "b. 6-12",
+    category=="13-14" ~ "c. 13-14",
+    category=="15-16" ~ "d. 15-16",
+    category=="17" ~ "e. 17+",
+    category=="17+" ~ "e. 17+"
+    )) %>% 
+  group_by(category) %>% 
+  summarize(total=sum(value, na.rm=T)) %>% 
+  mutate(percent=round(total/sum(total)*100,1)) %>% 
+  kable()
+ 
+```
+
+## Tender Age {.tabset}
+
+More than half the tender age children end up in transitional foster care. Only 3 percent end up in long term foster care. About 43 percent of the tender age children remained in standard shelters. More than 50 percent of the children went to transitional foster care between 2019 and 2020 but that rate has since dropped in the later months of 2020.
+
+### Scaled
+
+```{r tender_scaled, fig.height=6}
+um %>% filter(group=="Tender Age (0-12) UC By Shelter Type") %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, ncol=2)
+```
+
+### Unscaled 
+
+```{r tender_unscaled, fig.height=6}
+um %>% filter(group=="Tender Age (0-12) UC By Shelter Type") %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, scales="free_y", ncol=2)
+```
+
+### Table
+
+```{r tender_table}
+um %>% filter(group=="Tender Age (0-12) UC By Shelter Type") %>% 
+    select(-group, -number_type) %>% 
+
+  pivot_wider(names_from="month", values_from="value") %>% 
+    DT::datatable(
+    #filter = "top",  # allows filtering on each column
+    extensions = c(
+      "Buttons"#,  # add download buttons, etc
+     # "Scroller"  # for scrolling down the rows rather than pagination
+    ),
+    rownames = FALSE,  # remove rownames
+    style = "bootstrap",
+    class = "compact",
+    width = "100%",
+    options = list(
+    #  dom = "Blrtip",  # specify content (search box, etc)
+    #  deferRender = TRUE,
+      #scrollY = 300,
+      #scroller = TRUE,
+      #columnDefs = list(
+      #  list(
+      #    visible = FALSE,
+      #    targets = c(4,5,7)
+      #  )
+    #  ), 
+      buttons = list(
+    #    I("colvis"),  # turn columns on and off
+        "csv",  # download as .csv
+        "excel"  # download as .xlsx
+      )
+    )
+)
+```
+
+
+### Percent
+
+```{r tender_percent}
+um %>% filter(group=="Tender Age (0-12) UC By Shelter Type") %>% 
+  group_by(month) %>% 
+  mutate(percent=value/sum(value)*100) %>% 
+  ggplot(aes(x=month, y=percent, fill=category)) +
+    geom_bar(position="stack", stat="identity") 
+```
+
+### Overall percent
+
+```{r tender_percent_table2}
+um %>% filter(group=="Tender Age (0-12) UC By Shelter Type") %>% 
+  group_by(category) %>% 
+  summarize(total=sum(value, na.rm=T)) %>% 
+  mutate(percent=round(total/sum(total)*100,1)) %>% 
+  kable()
+ 
+```
+
+
+## Discharges to individual sponsors {.tabset}
+
+Most of the discharges to individual sponsors go to Category 2 followed by Category 1. However, there was a spike to Category 3 sponsors in the summer of 2020.
+
+### Scaled
+
+```{r sponsors_scaled, fig.height=3.5}
+um %>% filter(group=="Total Monthly Discharges to Individual Sponsors Only (By Category)") %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, ncol=2)
+```
+
+### Unscaled 
+
+```{r sponsor_unscaled, fig.height=3.5}
+um %>% filter(group=="Total Monthly Discharges to Individual Sponsors Only (By Category)") %>% 
+  ggplot(aes(x=month, y=value)) +
+  geom_col() +
+  facet_wrap(~category, scales="free_y", ncol=2)
+```
+
+### Table
+
+```{r sponsor_table}
+um %>% filter(group=="Total Monthly Discharges to Individual Sponsors Only (By Category)") %>%   
+  select(-group, -number_type) %>% 
+
+  pivot_wider(names_from="month", values_from="value") %>% 
+    DT::datatable(
+    #filter = "top",  # allows filtering on each column
+    extensions = c(
+      "Buttons"#,  # add download buttons, etc
+     # "Scroller"  # for scrolling down the rows rather than pagination
+    ),
+    rownames = FALSE,  # remove rownames
+    style = "bootstrap",
+    class = "compact",
+    width = "100%",
+    options = list(
+    #  dom = "Blrtip",  # specify content (search box, etc)
+    #  deferRender = TRUE,
+      #scrollY = 300,
+      #scroller = TRUE,
+      #columnDefs = list(
+      #  list(
+      #    visible = FALSE,
+      #    targets = c(4,5,7)
+      #  )
+    #  ), 
+      buttons = list(
+    #    I("colvis"),  # turn columns on and off
+        "csv",  # download as .csv
+        "excel"  # download as .xlsx
+      )
+    )
+)
+```
+
+
+### Percent
+
+```{r discharges_percent_fill}
+um %>% filter(group=="Total Monthly Discharges to Individual Sponsors Only (By Category)") %>% 
+    filter(category!="Total") %>% 
+  group_by(month) %>% 
+  mutate(percent=value/sum(value)*100) %>% 
+  ggplot(aes(x=month, y=percent, fill=category)) +
+    geom_bar(position="stack", stat="identity") 
+```
+
+### Overall percent
+
+
+```{r discharges_percent_table}
+um %>% filter(group=="Total Monthly Discharges to Individual Sponsors Only (By Category)") %>% 
+  filter(category!="Total") %>% 
+  group_by(category) %>% 
+  summarize(total=sum(value, na.rm=T)) %>% 
+  mutate(percent=round(total/sum(total)*100,1)) %>% 
+  kable()
+ 
+```
+
+
+
+## Unaccompanied Alien Children Released to Sponsors By State
+ {.tabset}
+
+Text goes here
+
+### Scaled
+
+```{r state_scaled, fig.height=5, warning=F, message=F}
+states_long %>% 
+  ggplot(aes(x=fiscal_year, y=uac)) +
+  geom_line()+
+  facet_geo(~state)
+```
+
+### Unscaled 
+
+```{r state_unscaled, fig.height=5}
+states_long %>% 
+  ggplot(aes(x=fiscal_year, y=uac)) +
+  geom_line()+
+  facet_geo(~state, scales="free_y")
+```
+
+
+### Per capita 
+
+```{r state_per_capita, fig.height=5}
+states_long %>% 
+  ggplot(aes(x=fiscal_year, y=per_capita)) +
+  geom_line()+
+  facet_geo(~state) +
+  labs(title="Per 1 million residents")
+```
+
+### Table
+
+```{r state_table}
+states %>% 
+    DT::datatable(
+    #filter = "top",  # allows filtering on each column
+    extensions = c(
+      "Buttons"#,  # add download buttons, etc
+     # "Scroller"  # for scrolling down the rows rather than pagination
+    ),
+    rownames = FALSE,  # remove rownames
+    style = "bootstrap",
+    class = "compact",
+    width = "100%",
+    options = list(
+    #  dom = "Blrtip",  # specify content (search box, etc)
+    #  deferRender = TRUE,
+      #scrollY = 300,
+      #scroller = TRUE,
+      #columnDefs = list(
+      #  list(
+      #    visible = FALSE,
+      #    targets = c(4,5,7)
+      #  )
+    #  ), 
+      buttons = list(
+    #    I("colvis"),  # turn columns on and off
+        "csv",  # download as .csv
+        "excel"  # download as .xlsx
+      )
+    )
+)
+```
+
+## Unaccompanied Alien Children Released to Sponsors by County
+
+The following [table](https://www.acf.hhs.gov/orr/grant-funding/unaccompanied-alien-children-released-sponsors-county) shows county-level data for unaccompanied alien children released to sponsors by the counties/county equivalents where the sponsors live, where 50 or more children have been released for FY2021 (since October 1, 2020) as of January 31, 2021. This data covers 33 counties and county equivalents nationwide and comprises 3,423 of the 7,207 total children released to sponsors in this period.
+
+```{r county_table, warning=F, message=F}
+counties <- read_csv("../output_data/county_50_fy21.csv")
+kable(counties)
+```
+

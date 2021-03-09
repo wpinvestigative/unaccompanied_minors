@@ -1,0 +1,52 @@
+name,state,population,labs,reporting
+Alabama,AL,4903185,state,Positives and negatives
+Alaska,AK,731545,"state, commercial, etc",Positives and negatives
+Arizona,AZ,7278717,"state, commercial, etc",Positives and negatives
+Arkansas,AR,3017804,"state, commercial, etc",Positives and negatives
+California,CA,39512223,"state, commercial, etc",Positives and negatives
+Colorado,CO,5758736,"state, commercial, etc",Positives and negatives
+Connecticut,CT,3565287,"state, commercial, etc",Positives and negatives
+Delaware,DE,973764,state,Positives and negatives
+District of Columbia,DC,705749,"state, commercial, etc",Positives and negatives
+Florida,FL,21477737,"state, commercial, etc",Positives and negatives
+Georgia,GA,10617423,"state, commercial, etc",Positives and negatives
+Hawaii,HI,1415872,"state, commercial, etc",Positives and negatives
+Idaho,ID,1787065,"state, commercial, etc",Positives and negatives
+Illinois,IL,12671821,"state, commercial, etc",Positives and negatives
+Indiana,IN,6732219,"state, commercial, etc",Positives and negatives
+Iowa,IA,3155070,"state, commercial, etc",Positives and negatives
+Kansas,KS,2913314,"state, commercial, etc",Positives and negatives
+Kentucky,KY,4467673,"state, commercial, etc",Positives and negatives
+Louisiana,LA,4648794,"state, commercial, etc",Positives and negatives
+Maine,ME,1344212,"state, commercial, etc",Positives and negatives
+Maryland,MD,6045680,"state, commercial, etc",Positives and negatives
+Massachusetts,MA,6892503,"state, commercial, etc",Positives and negatives
+Michigan,MI,9986857,"state, commercial, etc",Positives only
+Minnesota,MN,5639632,"state, commercial, etc",Positives and negatives
+Mississippi,MS,2976149,"state, commercial, etc",Positives and negatives
+Missouri,MO,6137428,"state, commercial, etc",Positives and negatives
+Montana,MT,1068778,"state, commercial, etc",Positives and negatives
+Nebraska,NE,1934408,"state, commercial, etc",Positives and negatives
+Nevada,NV,3080156,"state, commercial, etc",Positives and negatives
+New Hampshire,NH,1359711,"state, commercial, etc",Positives and negatives
+New Jersey,NJ,8882190,"state, commercial, etc",Positives and negatives
+New Mexico,NM,2096829,"state, commercial, etc",Positives and negatives
+New York,NY,19453561,"state, commercial, etc",Positives and negatives
+North Carolina,NC,10488084,"state, commercial, etc",Positives and negatives
+North Dakota,ND,762062,state,Positives and negatives
+Ohio,OH,11689100,"state, commercial, etc",Positives and negatives
+Oklahoma,OK,3956971,"state, commercial, etc",Positives and negatives
+Oregon,OR,4217737,"state, commercial, etc",Positives and negatives
+Pennsylvania,PA,12801989,"state, commercial, etc",Positives and negatives
+Rhode Island,RI,1059361,state,Positives and negatives
+South Carolina,SC,5148714,"state, commercial, etc",Positives and negatives
+South Dakota,SD,884659,"state, commercial, etc",Positives and negatives
+Tennessee,TN,6829174,"state, commercial, etc",Positives and negatives
+Texas,TX,28995881,"state, commercial, etc",Positives and negatives
+Utah,UT,3205958,"state, commercial, etc",Positives and negatives
+Vermont,VT,623989,"state, commercial, etc",Positives and negatives
+Virginia,VA,8535519,"state, commercial, etc",Positives and negatives
+Washington,WA,7614893,"state, commercial, etc",Positives and negatives
+West Virginia,WV,1792147,"state, commercial, etc",Positives and negatives
+Wisconsin,WI,5822434,"state, commercial, etc",Positives and negatives
+Wyoming,WY,578759,"state, commercial, etc",Positives and negatives
